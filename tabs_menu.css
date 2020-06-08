@@ -1,0 +1,105 @@
+.tabs-section
+{
+	display: flex;
+}
+.tabs_menu_container
+{
+  flex: 2;
+
+
+}
+
+.tab_navigation
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tab_navigation li
+{
+	display: inline-block;
+	background: #734e07;
+	color: #fff;
+	min-width: 100px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.tab_navigation .wax
+{
+	background: #9a8905;
+}
+
+.tab_navigation .ujed
+{
+	background: #067d58;
+}
+
+.tab_navigation .shaqo
+{
+	background: #252924;
+}
+
+.tab_navigation li.active,
+.tab_navigation li:hover
+{
+	background: #734e07;
+}
+
+
+
+
+.tab_container_area{}
+
+.tab_container
+{
+  width: 90%;
+  background: #734e07;
+  padding: 10px;
+  border-radius: 0 5px 5px 5px;
+  margin-top: 2px;
+  display: none;
+}
+
+.form-container
+{
+	flex: 1;
+}
+
+.form
+{
+	background: #7aa9cc;
+	margin-top: 40px;
+	text-align: center;
+	padding: 30px;
+}
+
+.input-group
+{
+	margin-top: 10px;
+}
+
+.input-group input
+{
+	padding: 5px;
+}
+
+.dir
+{
+	background: #5c3b03;
+	width: 30%;
+	padding: 5px;
+	margin-top:30px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+section
+{
+	width: 90%;
+	margin: auto;
+}
